@@ -81,3 +81,15 @@
     background-color: #59C1E2;
     padding: 100px;
 }
+
+.rodape {
+    background-color: black;
+    padding: 20px 0;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+.imagem-com-fundo {
+    background-color: black;
+}
