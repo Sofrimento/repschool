@@ -29,7 +29,15 @@
     padding: 50px 0;
 }
 
-.escola-sobre,
+.escola-sobre{
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: large;
+    padding: 10px 0;
+    font-size: 50px;
+}
 .escola-texto1,
 .escola-texto2 {
     color: white;
@@ -38,4 +46,35 @@
     font-style: normal;
     font-size: large;
     padding: 10px 0;
+}
+
+.estudante-titulo{
+    text-align: center;
+    padding: 50px;
+    font-family: "Poppins", sans-serif;
+}
+
+.mamaco{
+    width: 300px;
+}
+
+.estudante-icone{
+    width: 24px;
+}
+
+.flex-container{
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    flex-direction: row;
+}
+
+.flex-container > div {
+    margin: 10px;
+    text-align: center;
+    font-family: "Poppins", sans-serif
+}
+
+.estudante{
+    background-color: #59C1E2;
 }
